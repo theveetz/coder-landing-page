@@ -1,0 +1,132 @@
+.fromTheBest,
+.weAreBuilding {
+  margin: 0;
+}
+.weAreBuildingContainer {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.03em;
+  line-height: 56px;
+  font-weight: 700;
+  font-family: inherit;
+}
+.stack,
+.stack1 {
+  flex: 1;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-5xl);
+}
+.stack {
+  margin: 0 !important;
+  position: absolute;
+  left: 0;
+}
+.stack1 {
+  left: 400px;
+}
+.stack1,
+.stack2,
+.testimonialBackground {
+  position: absolute;
+  margin: 0 !important;
+}
+.stack2 {
+  flex: 1;
+  top: 0;
+  left: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-5xl);
+}
+.testimonialBackground {
+  height: 348px;
+  width: 1176px;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(180deg, rgba(20, 23, 24, 0), #141718);
+  z-index: 1;
+}
+.row {
+  align-self: stretch;
+  height: 772px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  gap: var(--gap-5xl);
+  text-align: left;
+  font-size: var(--healine-6-size);
+}
+.smallContainer,
+.testimonials {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.smallContainer {
+  width: 1240px;
+  border-radius: var(--br-base);
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-13xl);
+  gap: var(--gap-21xl);
+}
+.testimonials {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 0 var(--padding-53xl);
+  text-align: center;
+  font-size: var(--healine-2-size);
+  color: var(--light-level-1);
+  font-family: var(--base-2);
+}
+@media screen and (max-width: 1125px) {
+  .smallContainer {
+    padding-top: var(--padding-2xl);
+    padding-bottom: var(--padding-2xl);
+    box-sizing: border-box;
+  }
+  .testimonials {
+    padding-bottom: var(--padding-28xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 800px) {
+  .weAreBuildingContainer {
+    font-size: var(--font-size-19xl);
+    line-height: 45px;
+  }
+  .smallContainer {
+    gap: var(--gap-xl);
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .testimonials {
+    padding-bottom: var(--padding-12xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .weAreBuildingContainer {
+    font-size: var(--font-size-10xl);
+    line-height: 34px;
+  }
+  .row {
+    height: auto;
+    min-height: 772;
+  }
+}

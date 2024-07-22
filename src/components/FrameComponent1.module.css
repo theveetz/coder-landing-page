@@ -1,0 +1,114 @@
+.frameChild,
+.frameInner,
+.frameItem {
+  height: 86.8px;
+  border-bottom: 0.7px solid var(--color-white);
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+.frameChild {
+  width: 86.8px;
+  background-color: var(--color-gray-800);
+}
+.frameInner,
+.frameItem {
+  flex: 1;
+  border-left: 0.7px solid var(--color-white);
+}
+.frameInner {
+  z-index: 1;
+  margin-left: -0.1px;
+}
+.frameGroup {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-width: 112px;
+  flex-shrink: 0;
+}
+.frameChild1,
+.frameDiv {
+  height: 86.8px;
+  flex: 1;
+  border-bottom: 0.7px solid var(--color-white);
+  border-left: 0.7px solid var(--color-white);
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+.frameDiv {
+  background-color: var(--color-gray-800);
+}
+.frameChild1 {
+  z-index: 1;
+  margin-left: -0.1px;
+}
+.frameContainer,
+.frameTextarea {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-width: 112px;
+  flex-shrink: 0;
+}
+.frameTextarea {
+  border: 0;
+  background-color: transparent;
+  height: 86.8px;
+  width: auto;
+  outline: 0;
+}
+.frameChild2 {
+  height: 86.8px;
+  width: 86.8px;
+  border-bottom: 0.7px solid var(--color-white);
+  border-left: 0.7px solid var(--color-white);
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+.logo {
+  height: 56.8px;
+  width: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.frameParent,
+.imgLogo {
+  margin: 0 !important;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+}
+.imgLogo {
+  height: 86.8px;
+  width: 86.8px;
+  top: -1.3px;
+  left: 262px;
+  border-radius: var(--br-5xs);
+  overflow: hidden;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-xs);
+  box-sizing: border-box;
+  background-image: url(/public/img--logo@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  z-index: 4;
+}
+.frameParent {
+  width: 100%;
+  top: 260.3px;
+  right: 0;
+  left: 0;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+  row-gap: 20px;
+}

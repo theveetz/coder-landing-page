@@ -1,0 +1,1447 @@
+.imageIcon,
+.projectUmbrella,
+.rowChild {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--accent-red);
+  border: 0 solid var(--color-darkslategray-100);
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+.projectUmbrella,
+.rowChild {
+  background-color: var(--accent-yellow);
+}
+.rowChild {
+  background-color: var(--brand-level-2);
+}
+.row {
+  align-self: stretch;
+  border-radius: var(--br-base) var(--br-base) 0 0;
+  background-color: var(--dark-level-3);
+  border: 1px solid var(--color-darkslategray-100);
+  overflow-x: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xl) var(--padding-13xl);
+  gap: var(--gap-xs);
+  flex-shrink: 0;
+}
+.frameChild {
+  height: 48px;
+  width: 48px;
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.canYouMake {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.03em;
+  line-height: 32px;
+  font-weight: 600;
+  background: linear-gradient(180deg, #fff, rgba(255, 255, 255, 0.8));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.canYouMakeThisCodeMoreSiWrapper,
+.ellipseParent,
+.stackInner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.canYouMakeThisCodeMoreSiWrapper {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-5xs) 0 0;
+  box-sizing: border-box;
+  min-width: 239px;
+}
+.ellipseParent,
+.stackInner {
+  flex-direction: row;
+  flex-shrink: 0;
+}
+.ellipseParent {
+  flex: 1;
+  gap: var(--gap-base);
+}
+.stackInner {
+  align-self: stretch;
+  padding: 0 var(--padding-13xl);
+  box-sizing: border-box;
+}
+.codeResponseChild {
+  height: 48px;
+  width: 48px;
+  border-radius: var(--br-5xs);
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.sureHereYou {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.03em;
+  line-height: 36px;
+  font-weight: 400;
+  font-family: inherit;
+  background: linear-gradient(180deg, #fff, rgba(255, 255, 255, 0.8));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  min-width: 239px;
+  max-width: 100%;
+}
+.codeResponse {
+  align-self: stretch;
+  background-color: var(--dark-level-3);
+  border-top: 1px solid var(--color-darkslategray-100);
+  border-bottom: 1px solid var(--color-darkslategray-100);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-11xl) var(--padding-13xl);
+  gap: var(--gap-base);
+  max-width: 100%;
+}
+.empty,
+.empty1,
+.empty2,
+.empty3,
+.empty4,
+.empty5,
+.empty6,
+.emptyItem,
+.emptyItem1 {
+  width: 9px;
+  position: relative;
+  line-height: 100%;
+  display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.empty6 {
+  height: 14px;
+}
+.empty10,
+.empty11,
+.empty12,
+.empty13,
+.empty14,
+.empty15,
+.empty16,
+.empty17,
+.empty18,
+.empty19,
+.empty20,
+.empty21,
+.empty22,
+.empty23,
+.empty24,
+.empty25,
+.empty26,
+.empty27,
+.empty28,
+.empty29,
+.empty30,
+.empty31,
+.empty32,
+.empty33,
+.empty34,
+.empty35,
+.empty36,
+.empty37,
+.empty38,
+.empty39,
+.empty7,
+.empty8,
+.empty9 {
+  align-self: stretch;
+  height: 14px;
+  position: relative;
+  line-height: 100%;
+  display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.emptyItemParent,
+.frameWrapper {
+  display: flex;
+  flex-direction: column;
+}
+.emptyItemParent {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-5xs);
+  opacity: 0.3;
+}
+.frameWrapper {
+  width: 25px;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-5xs) 0 0;
+  box-sizing: border-box;
+}
+.np,
+.numpy {
+  color: var(--light-level-1);
+}
+.importNumpyAsContainer {
+  align-self: stretch;
+  position: relative;
+  line-height: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: var(--accent-red);
+}
+.pandas,
+.pd {
+  color: var(--light-level-1);
+}
+.importPandasAsContainer {
+  align-self: stretch;
+  position: relative;
+  line-height: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: var(--accent-red);
+}
+.os {
+  color: var(--light-level-1);
+}
+.importOs {
+  align-self: stretch;
+  position: relative;
+  line-height: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: var(--accent-red);
+}
+.kerasmodels,
+.loadModel {
+  color: var(--light-level-1);
+}
+.fromKerasmodelsImportContainer,
+.fromWerkzeugutilsImport {
+  position: relative;
+  line-height: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.fromKerasmodelsImportContainer {
+  width: 295px;
+  display: inline-block;
+  color: var(--accent-red);
+}
+.fromWerkzeugutilsImport {
+  align-self: stretch;
+  color: var(--dark-level-3);
+}
+.span {
+  color: var(--accent-red);
+}
+.flask {
+  color: var(--brand-level-2);
+}
+.name {
+  color: var(--accent-purple);
+}
+.appFlaskNameContainer {
+  align-self: stretch;
+  position: relative;
+  line-height: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.span1 {
+  color: var(--accent-red);
+}
+.modelsnewestModelh5 {
+  color: var(--accent-yellow);
+}
+.modelPathModelsnewestMoContainer {
+  width: 311px;
+  position: relative;
+  line-height: 100%;
+  display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.span2 {
+  color: var(--accent-red);
+}
+.loadModel1 {
+  color: var(--brand-level-2);
+}
+.approute,
+.modelLoadModelmodelPathContainer {
+  align-self: stretch;
+  position: relative;
+  line-height: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.approute {
+  height: 14px;
+  color: var(--dark-level-2);
+  display: inline-block;
+}
+.approute2 {
+  color: var(--brand-level-2);
+}
+.span3 {
+  color: var(--accent-yellow);
+}
+.approute1 {
+  align-self: stretch;
+  height: 14px;
+  position: relative;
+  line-height: 100%;
+  display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.def {
+  color: var(--accent-purple);
+}
+.index1 {
+  color: var(--brand-level-2);
+}
+.defIndex {
+  align-self: stretch;
+  height: 14px;
+  position: relative;
+  line-height: 100%;
+  display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.return {
+  color: var(--accent-red);
+}
+.renderTemplate {
+  color: var(--brand-level-2);
+}
+.indexhtml {
+  color: var(--accent-yellow);
+}
+.returnRenderTemplateindex {
+  align-self: stretch;
+  width: 303px;
+  position: relative;
+  line-height: 100%;
+  display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-height: 14px;
+  word-break: break-word;
+}
+.defProcess,
+.returnStatement {
+  align-self: stretch;
+  height: 14px;
+}
+.returnStatement {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-21xl);
+  box-sizing: border-box;
+}
+.defProcess {
+  position: relative;
+  line-height: 100%;
+  color: var(--color-gray-300);
+  display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.def1 {
+  color: var(--accent-purple);
+}
+.modelPredict {
+  color: var(--brand-level-2);
+}
+.dataPath,
+.model {
+  color: var(--accent-red);
+}
+.defModelPredictdataPathMContainer {
+  width: 303px;
+  height: 14px;
+  position: relative;
+  line-height: 100%;
+  display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.span4 {
+  color: var(--accent-red);
+}
+.readExcel {
+  color: var(--brand-level-2);
+}
+.datasetPdreadExcelmodelContainer {
+  align-self: stretch;
+  width: 294px;
+  position: relative;
+  line-height: 100%;
+  display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.dataset {
+  align-self: stretch;
+  height: 14px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-21xl);
+  box-sizing: border-box;
+}
+.xNparraydataset {
+  align-self: stretch;
+  width: 202px;
+  position: relative;
+  line-height: 100%;
+  display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.numPyArray {
+  align-self: stretch;
+  height: 14px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-21xl);
+  box-sizing: border-box;
+}
+.span5 {
+  color: var(--accent-red);
+}
+.reshape1 {
+  color: var(--brand-level-2);
+}
+.xXreshapexshape0Container {
+  height: 14px;
+  width: 336px;
+  position: relative;
+  line-height: 100%;
+  display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 100%;
+}
+.reshape {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0 var(--padding-12xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.span6 {
+  color: var(--accent-red);
+}
+.predict {
+  color: var(--brand-level-2);
+}
+.predictModelpredictxContainer {
+  align-self: stretch;
+  width: 219px;
+  position: relative;
+  line-height: 100%;
+  display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.predictionResult {
+  align-self: stretch;
+  height: 14px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-21xl);
+  box-sizing: border-box;
+}
+.predict1 {
+  color: var(--light-level-1);
+}
+.returnPredict {
+  align-self: stretch;
+  width: 118px;
+  position: relative;
+  line-height: 100%;
+  display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.returnPrediction {
+  align-self: stretch;
+  height: 14px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-21xl);
+  box-sizing: border-box;
+  color: var(--accent-red);
+}
+.avg2Requestformavg1 {
+  height: 14px;
+  width: 347px;
+  position: relative;
+  line-height: 100%;
+  display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 100%;
+}
+.requestForm {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  max-width: 100%;
+  color: var(--dark-level-2);
+}
+.approute3 {
+  color: var(--brand-level-2);
+}
+.predict2 {
+  color: var(--accent-yellow);
+}
+.span7 {
+  color: var(--accent-red);
+}
+.get,
+.post {
+  color: var(--accent-yellow);
+}
+.approutepredictMethodsContainer {
+  align-self: stretch;
+  height: 14px;
+  position: relative;
+  line-height: 100%;
+  display: inline-block;
+}
+.def2 {
+  color: var(--accent-purple);
+}
+.upload {
+  color: var(--brand-level-2);
+}
+.defUpload {
+  align-self: stretch;
+  height: 14px;
+  position: relative;
+  line-height: 100%;
+  display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.requestmethod {
+  color: var(--light-level-1);
+}
+.post1 {
+  color: var(--accent-yellow);
+}
+.ifRequestmethodContainer {
+  align-self: stretch;
+  width: 227px;
+  position: relative;
+  line-height: 100%;
+  display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.requestMethod {
+  align-self: stretch;
+  height: 14px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-21xl);
+  box-sizing: border-box;
+}
+.requestMethod,
+.span8 {
+  color: var(--accent-red);
+}
+.file {
+  color: var(--accent-yellow);
+}
+.fRequestfilesfileContainer {
+  align-self: stretch;
+  width: 210px;
+  position: relative;
+  line-height: 100%;
+  display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.requestFile {
+  align-self: stretch;
+  height: 14px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-41xl);
+  box-sizing: border-box;
+}
+.span9 {
+  color: var(--accent-red);
+}
+.dirname {
+  color: var(--brand-level-2);
+}
+.basepathOspathdirnameFContainer {
+  align-self: stretch;
+  width: 303px;
+  position: relative;
+  line-height: 100%;
+  display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.basePath {
+  align-self: stretch;
+  height: 14px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0 var(--padding-25xl);
+  box-sizing: border-box;
+}
+.importBlock,
+.importBlockWrapper {
+  display: flex;
+  flex-direction: column;
+}
+.importBlock {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-5xs);
+  max-width: 100%;
+}
+.importBlockWrapper {
+  flex: 1;
+  align-items: center;
+  justify-content: flex-start;
+  max-width: calc(100% - 57px);
+  flex-shrink: 0;
+}
+.empty40 {
+  height: 16px;
+  width: 16px;
+}
+.copy,
+.copy06 {
+  position: relative;
+}
+.copy06 {
+  margin: 0;
+  height: 16px;
+  width: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 16px;
+}
+.copy {
+  height: 14px;
+  flex: 1;
+  font-size: var(--base-2-size);
+  line-height: 100%;
+  font-weight: 500;
+  font-family: var(--base-2);
+  color: var(--dark-level-2);
+  text-align: left;
+  display: inline-block;
+}
+.copyAction,
+.frameParent {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.copyAction {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-7xs) var(--padding-xs) var(--padding-7xs)
+    var(--padding-7xs);
+  background-color: var(--light-level-1);
+  width: 76px;
+  margin: 0 !important;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  border-radius: var(--br-7xs);
+  align-items: center;
+  box-sizing: border-box;
+  gap: var(--gap-7xs);
+}
+.copyAction:hover {
+  background-color: var(--color-gainsboro-100);
+}
+.frameParent {
+  align-self: stretch;
+  height: 520px;
+  overflow-y: auto;
+  flex-shrink: 0;
+  align-items: flex-start;
+  position: relative;
+  gap: var(--gap-5xs);
+  max-width: 100%;
+}
+.stack1,
+.stackChild {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.stackChild {
+  width: 528px;
+  background-color: var(--dark-level-3);
+  padding: var(--padding-13xl);
+  max-width: 107%;
+  flex-shrink: 0;
+  font-size: var(--base-2-size);
+  font-family: var(--font-pt-mono);
+}
+.stack1 {
+  align-self: stretch;
+  padding: 0;
+  max-width: 100%;
+}
+.financeIcon {
+  align-self: stretch;
+  height: 194px;
+  position: relative;
+  background: linear-gradient(180deg, rgba(34, 34, 36, 0), #222224);
+  z-index: 1;
+  margin-top: -578px;
+}
+.stack,
+.stackParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.stackParent {
+  align-self: stretch;
+  min-height: 720px;
+  flex-shrink: 0;
+  font-size: var(--healine-5-size);
+  font-family: var(--body-2);
+}
+.stack {
+  height: 528px;
+  flex: 1;
+  border-radius: var(--br-base);
+  border: 1px solid var(--color-darkslategray-100);
+  box-sizing: border-box;
+  padding: 0 0 var(--padding-349xl);
+  gap: var(--gap-13xl);
+}
+.img,
+.letAiDo {
+  align-self: stretch;
+}
+.img {
+  border-radius: var(--br-mid);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.letAiDo {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.02em;
+  line-height: 40px;
+  font-weight: 700;
+  font-family: inherit;
+}
+.havingAnAi,
+.writeAPrompt {
+  margin: 0;
+}
+.writeAPromptContainer {
+  position: relative;
+  font-size: var(--base-1-size);
+  letter-spacing: -0.03em;
+  line-height: 24px;
+  font-weight: 500;
+  color: var(--light-level-4);
+}
+.card,
+.workBenefits {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.workBenefits {
+  align-self: stretch;
+  gap: var(--gap-base);
+  font-size: var(--healine-4-size);
+  color: var(--light-level-2);
+}
+.card {
+  flex: 1;
+  border-radius: var(--br-5xl);
+  background-color: var(--dark-level-2);
+  border: 1px solid var(--color-darkslategray-100);
+  box-sizing: border-box;
+  padding: var(--padding-19xl) var(--padding-20xl) var(--padding-35xl);
+  gap: var(--gap-13xl);
+  max-width: 100%;
+}
+.beachumbrellaIcon {
+  height: 28px;
+  width: 24.2px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.icon {
+  height: 48px;
+  width: 48px;
+  border-radius: var(--br-81xl);
+  background: linear-gradient(180deg, #606acb, #4f5abe);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-smi) var(--padding-3xs)
+    var(--padding-3xs);
+  box-sizing: border-box;
+}
+.projectUmbrella1 {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.03em;
+  line-height: 40px;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 142px;
+  max-width: 100%;
+}
+.row1,
+.stackItem {
+  align-self: stretch;
+  max-width: 100%;
+}
+.row1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  flex-shrink: 0;
+}
+.stackItem {
+  position: relative;
+  overflow: hidden;
+  max-height: 100%;
+}
+.ellipseIcon,
+.rowInner,
+.rowItem {
+  height: 32px;
+  width: 32px;
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+  min-height: 32px;
+}
+.ellipseIcon,
+.rowInner {
+  z-index: 1;
+  margin-left: -12px;
+}
+.ellipseIcon {
+  z-index: 2;
+}
+.row4 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.peopleInThis {
+  position: relative;
+  letter-spacing: -0.03em;
+  line-height: 24px;
+  font-weight: 500;
+}
+.row3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.groupIcon {
+  height: 32px;
+  width: 32px;
+  position: relative;
+  min-height: 32px;
+}
+.row2,
+.stack2 {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+}
+.row2 {
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  font-size: var(--base-1-size);
+  color: var(--color-whitesmoke-100);
+}
+.stack2 {
+  border-radius: var(--br-base);
+  background-color: var(--dark-level-3);
+  border: 1px solid var(--color-gray-600);
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-11xl) var(--padding-12xl);
+  gap: var(--gap-13xl);
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.icon1 {
+  height: 48px;
+  width: 48px;
+  position: relative;
+  border-radius: var(--br-81xl);
+}
+.financeWalletProject {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.03em;
+  line-height: 40px;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 193px;
+  max-width: 100%;
+}
+.row5,
+.vectorIcon {
+  align-self: stretch;
+  max-width: 100%;
+}
+.row5 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  flex-shrink: 0;
+}
+.vectorIcon {
+  position: relative;
+  overflow: hidden;
+  max-height: 100%;
+}
+.rowChild1,
+.rowChild2,
+.rowChild3 {
+  height: 32px;
+  width: 32px;
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+  min-height: 32px;
+}
+.rowChild2,
+.rowChild3 {
+  z-index: 1;
+  margin-left: -12px;
+}
+.rowChild3 {
+  z-index: 2;
+}
+.row8 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.peopleInThis1 {
+  position: relative;
+  letter-spacing: -0.03em;
+  line-height: 24px;
+  font-weight: 500;
+}
+.row7 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.rowChild4 {
+  height: 32px;
+  width: 32px;
+  position: relative;
+  min-height: 32px;
+}
+.row6,
+.stack3 {
+  display: flex;
+  align-items: center;
+}
+.row6 {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  font-size: var(--base-1-size);
+  color: var(--color-whitesmoke-100);
+}
+.stack3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-base);
+  background-color: var(--dark-level-3);
+  border: 1px solid var(--color-gray-600);
+  box-sizing: border-box;
+  width: 496px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-11xl) var(--padding-12xl);
+  gap: var(--gap-13xl);
+  max-width: 100%;
+}
+.wallet02Icon {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.icon2,
+.iconWrapper {
+  display: flex;
+  justify-content: flex-start;
+}
+.icon2 {
+  width: 36px;
+  height: 36px;
+  border-radius: var(--br-81xl);
+  background: linear-gradient(180deg, #cbad60, #a78f51);
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+}
+.iconWrapper {
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-11xs) 0 0;
+}
+.financeWalletProject1 {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.03em;
+  line-height: 40px;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 193px;
+  max-width: 100%;
+}
+.financeStatsIcon,
+.iconTitle {
+  align-self: stretch;
+  max-width: 100%;
+}
+.iconTitle {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.financeStatsIcon {
+  position: relative;
+  overflow: hidden;
+  max-height: 100%;
+}
+.financeAvatarOne,
+.financeAvatarThree,
+.financeAvatarTwo {
+  height: 32px;
+  width: 32px;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-gainsboro-200);
+}
+.financeAvatarThree,
+.financeAvatarTwo {
+  height: 36px;
+  width: 36px;
+  left: 20px;
+  border: 0 solid var(--color-darkslategray-200);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.financeAvatarThree {
+  left: 40px;
+  z-index: 2;
+}
+.row10 {
+  height: 32px;
+  width: 72px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+}
+.peopleInThis2 {
+  align-self: stretch;
+  height: 24px;
+  position: relative;
+  letter-spacing: -0.03em;
+  line-height: 24px;
+  font-weight: 500;
+  display: inline-block;
+}
+.financeMemberList,
+.financeProjectCount {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.financeProjectCount {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-9xs) 0 0;
+}
+.financeMemberList {
+  width: 255px;
+  flex-direction: row;
+  gap: var(--gap-xs);
+}
+.rowChild5 {
+  height: 32px;
+  width: 32px;
+  position: relative;
+  min-height: 32px;
+}
+.row9,
+.stack4 {
+  display: flex;
+  align-items: flex-start;
+}
+.row9 {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  font-size: var(--base-1-size);
+  color: var(--color-whitesmoke-100);
+}
+.stack4 {
+  position: absolute;
+  top: 122px;
+  left: 0;
+  border-radius: var(--br-base);
+  background-color: var(--dark-level-3);
+  border: 1px solid var(--color-gray-600);
+  box-sizing: border-box;
+  width: 496px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-11xl) var(--padding-12xl);
+  gap: var(--gap-13xl);
+  max-width: 100%;
+}
+.secondWorkCard {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(180deg, rgba(34, 34, 36, 0), #222224);
+  width: 528px;
+  height: 194px;
+  z-index: 1;
+}
+.financeCard {
+  position: absolute;
+  top: 106px;
+  left: 0;
+  width: 100%;
+  height: 322px;
+  max-width: 100%;
+}
+.projectStack {
+  width: 528px;
+  height: 428px;
+  position: relative;
+  flex-shrink: 0;
+  max-width: 107%;
+}
+.img1 {
+  align-self: stretch;
+  height: 528px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-301xl);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.reduceDevelopmentTime {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.02em;
+  line-height: 40px;
+  font-weight: 700;
+  font-family: inherit;
+}
+.developFasterWithout {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--base-1-size);
+  letter-spacing: -0.03em;
+  line-height: 24px;
+  font-weight: 500;
+  color: var(--light-level-4);
+}
+.card1,
+.cardParent,
+.reduceDevelopmentTimeByWorParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.reduceDevelopmentTimeByWorParent {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-base);
+  font-size: var(--healine-4-size);
+  color: var(--light-level-2);
+}
+.card1,
+.cardParent {
+  max-width: 100%;
+}
+.card1 {
+  flex: 1;
+  border-radius: var(--br-5xl);
+  background-color: var(--dark-level-2);
+  border: 1px solid var(--color-darkslategray-100);
+  box-sizing: border-box;
+  flex-direction: column;
+  padding: var(--padding-19xl) var(--padding-20xl);
+  gap: var(--gap-13xl);
+  font-size: var(--healine-5-size);
+}
+.cardParent {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-5xl);
+  text-align: left;
+  font-size: var(--healine-6-size);
+  color: var(--light-level-1);
+  font-family: var(--base-2);
+}
+@media screen and (max-width: 1300px) {
+  .stack {
+    padding-bottom: var(--padding-220xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1125px) {
+  .img1 {
+    padding-bottom: var(--padding-189xl);
+    box-sizing: border-box;
+  }
+  .cardParent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 800px) {
+  .codeResponse,
+  .ellipseParent {
+    flex-wrap: wrap;
+  }
+  .stackChild {
+    padding-top: var(--padding-2xl);
+    padding-bottom: var(--padding-2xl);
+    box-sizing: border-box;
+  }
+  .card,
+  .stack {
+    gap: var(--gap-base);
+    box-sizing: border-box;
+  }
+  .stack {
+    height: auto;
+    padding-bottom: var(--padding-136xl);
+  }
+  .card {
+    padding-top: var(--padding-6xl);
+    padding-bottom: var(--padding-16xl);
+  }
+  .row1,
+  .row2 {
+    flex-wrap: wrap;
+  }
+  .stack2 {
+    gap: var(--gap-base);
+  }
+  .iconTitle,
+  .row5,
+  .row6,
+  .row9 {
+    flex-wrap: wrap;
+  }
+  .financeCard {
+    height: auto;
+    min-height: 322;
+  }
+  .projectStack {
+    height: auto;
+    min-height: 428;
+  }
+  .card1,
+  .img1 {
+    box-sizing: border-box;
+  }
+  .img1 {
+    height: auto;
+    padding-bottom: var(--padding-116xl);
+  }
+  .card1 {
+    gap: var(--gap-base);
+    padding-top: var(--padding-6xl);
+    padding-bottom: var(--padding-6xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .sureHereYou {
+    font-size: var(--font-size-lgi);
+    line-height: 29px;
+  }
+  .basePath,
+  .requestFile {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .letAiDo {
+    font-size: var(--font-size-3xl);
+    line-height: 32px;
+  }
+  .card {
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-4xl);
+    box-sizing: border-box;
+  }
+  .projectUmbrella1 {
+    font-size: var(--font-size-lgi);
+    line-height: 32px;
+  }
+  .row3 {
+    flex-wrap: wrap;
+  }
+  .financeWalletProject {
+    font-size: var(--font-size-lgi);
+    line-height: 32px;
+  }
+  .row7 {
+    flex-wrap: wrap;
+  }
+  .financeWalletProject1 {
+    font-size: var(--font-size-lgi);
+    line-height: 32px;
+  }
+  .reduceDevelopmentTime {
+    font-size: var(--font-size-3xl);
+    line-height: 32px;
+  }
+  .card1 {
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

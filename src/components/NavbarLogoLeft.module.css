@@ -1,0 +1,208 @@
+.coder {
+  text-decoration: none;
+  position: relative;
+  letter-spacing: -0.03em;
+  line-height: 40px;
+  font-weight: 600;
+  color: inherit;
+  display: inline-block;
+  min-width: 96px;
+  white-space: nowrap;
+}
+.button:hover,
+.logo {
+  box-sizing: border-box;
+}
+.logo,
+.navbarBrand {
+  display: flex;
+  flex-direction: row;
+}
+.logo {
+  height: 36px;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-3xl);
+}
+.navbarBrand {
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xl) 0;
+}
+.about {
+  text-decoration: none;
+  position: relative;
+  letter-spacing: -0.03em;
+  line-height: 32px;
+  font-weight: 600;
+  color: inherit;
+  display: inline-block;
+  min-width: 51px;
+}
+.navbarLink {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xl) var(--padding-xs);
+}
+.features {
+  text-decoration: none;
+  position: relative;
+  letter-spacing: -0.03em;
+  line-height: 32px;
+  font-weight: 600;
+  color: inherit;
+  display: inline-block;
+  min-width: 73px;
+}
+.navbarLink1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xl) var(--padding-xs);
+}
+.blog {
+  text-decoration: none;
+  position: relative;
+  letter-spacing: -0.03em;
+  line-height: 32px;
+  font-weight: 600;
+  color: inherit;
+  display: inline-block;
+  min-width: 38px;
+}
+.navbarLink2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xl) var(--padding-xs);
+}
+.event {
+  text-decoration: none;
+  position: relative;
+  letter-spacing: -0.03em;
+  line-height: 32px;
+  font-weight: 600;
+  color: inherit;
+  display: inline-block;
+  min-width: 48px;
+}
+.navbarLink3 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xl) var(--padding-xs);
+}
+.pricing {
+  text-decoration: none;
+  position: relative;
+  letter-spacing: -0.03em;
+  line-height: 32px;
+  font-weight: 600;
+  color: inherit;
+  display: inline-block;
+  min-width: 58px;
+}
+.navbarLink4 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xl) var(--padding-xs);
+}
+.signUp {
+  text-decoration: none;
+  position: relative;
+  font-size: var(--healine-6-size);
+  letter-spacing: -0.03em;
+  line-height: 32px;
+  font-weight: 600;
+  font-family: var(--base-2);
+  color: var(--light-level-1);
+  text-align: left;
+  display: inline-block;
+  min-width: 65px;
+}
+.button {
+  cursor: pointer;
+  border: 1px solid var(--color-gray-700);
+  padding: var(--padding-7xs) var(--padding-4xl);
+  background-color: transparent;
+  border-radius: var(--br-31xl);
+  background: linear-gradient(180deg, #3e90f0, #1b6ecf);
+  justify-content: flex-start;
+  white-space: nowrap;
+}
+.button:hover {
+  background-color: var(--color-gainsboro-300);
+  border: 1px solid var(--color-gainsboro-100);
+}
+.button,
+.navbarContent,
+.navbarMenu,
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.row {
+  justify-content: center;
+  padding: var(--padding-base) var(--padding-xl);
+}
+.navbarContent,
+.navbarMenu {
+  max-width: 100%;
+}
+.navbarMenu {
+  width: 701px;
+  overflow: hidden;
+  flex-shrink: 0;
+  justify-content: flex-start;
+  gap: var(--gap-13xl);
+  font-size: var(--healine-6-size);
+}
+.navbarContent {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.navbarLogoLeft,
+.navbarcontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  max-width: 100%;
+}
+.navbarcontainer {
+  width: 1200px;
+  align-items: center;
+}
+.navbarLogoLeft {
+  align-self: stretch;
+  background-color: var(--dark-level-3);
+  overflow: hidden;
+  align-items: flex-start;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  text-align: left;
+  font-size: var(--healine-5-size);
+  color: var(--light-level-1);
+  font-family: var(--base-2);
+}
+@media screen and (max-width: 1125px) {
+  .navbarMenu {
+    display: none;
+  }
+}
+@media screen and (max-width: 800px) {
+  .navbarMenu {
+    gap: var(--gap-base);
+  }
+}

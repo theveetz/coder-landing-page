@@ -1,0 +1,232 @@
+.coder,
+.ogveetz {
+  margin: 0;
+}
+.coderOgveetz {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.03em;
+  line-height: 40px;
+  font-weight: 600;
+  font-family: inherit;
+}
+.logo {
+  height: 36px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-3xl);
+  box-sizing: border-box;
+}
+.column,
+.logoWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.logoWrapper {
+  flex-direction: row;
+  padding: var(--padding-base) 0 0;
+}
+.column {
+  width: 320px;
+  flex-direction: column;
+}
+.company,
+.link,
+.link1,
+.link2 {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 24px;
+  font-weight: 500;
+}
+.footerLinks {
+  align-self: stretch;
+  gap: var(--gap-5xs);
+  color: var(--light-level-1);
+}
+.column1,
+.content,
+.footerLinks {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.content {
+  align-self: stretch;
+  gap: var(--gap-base);
+}
+.column1 {
+  flex: 1;
+  min-width: 134px;
+}
+.link3,
+.link4,
+.link5,
+.link6,
+.resources {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 24px;
+  font-weight: 500;
+}
+.footerLinks1 {
+  align-self: stretch;
+  gap: var(--gap-5xs);
+  color: var(--light-level-1);
+}
+.column2,
+.content1,
+.footerLinks1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.content1 {
+  align-self: stretch;
+  gap: var(--gap-base);
+}
+.column2 {
+  flex: 1;
+  min-width: 134px;
+}
+.about,
+.link7,
+.link8 {
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 24px;
+  font-weight: 500;
+}
+.about {
+  align-self: stretch;
+}
+.link7,
+.link8 {
+  display: inline-block;
+  min-width: 126px;
+}
+.link8 {
+  text-decoration: none;
+  color: inherit;
+  min-width: 90px;
+}
+.content2,
+.footerLinks2 {
+  align-self: stretch;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.footerLinks2 {
+  display: flex;
+  align-items: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+  gap: var(--gap-5xs);
+  color: var(--light-level-1);
+}
+.content2 {
+  gap: var(--gap-base);
+}
+.column3,
+.columns,
+.content2,
+.smallColumns {
+  display: flex;
+  align-items: flex-start;
+}
+.column3 {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  min-width: 134px;
+}
+.columns,
+.smallColumns {
+  flex-direction: row;
+  max-width: 100%;
+}
+.smallColumns {
+  width: 600px;
+  justify-content: flex-start;
+  padding: var(--padding-base) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-13xl);
+  min-width: 600px;
+  font-size: var(--base-2-size);
+  color: var(--light-level-4);
+}
+.columns {
+  width: 1240px;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.text {
+  flex: 1;
+  position: relative;
+  line-height: 150%;
+  display: inline-block;
+  max-width: 100%;
+}
+.copyright,
+.footer {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+}
+.copyright {
+  width: 1240px;
+  flex-direction: row;
+  justify-content: center;
+  padding: var(--padding-base) 0;
+  text-align: center;
+  font-size: var(--base-2-size);
+}
+.footer {
+  align-self: stretch;
+  background-color: var(--dark-level-3);
+  border-top: 1px solid var(--dark-level-2);
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-43xl) var(--padding-xl) var(--padding-5xs);
+  gap: var(--gap-21xl);
+  text-align: left;
+  font-size: var(--healine-5-size);
+  color: var(--light-level-1);
+  font-family: var(--base-2);
+}
+@media screen and (max-width: 1125px) {
+  .smallColumns {
+    flex: 1;
+  }
+  .columns {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 800px) {
+  .smallColumns {
+    flex-wrap: wrap;
+    min-width: 100%;
+  }
+  .copyright,
+  .smallColumns {
+    gap: var(--gap-base);
+  }
+  .footer {
+    gap: var(--gap-xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .coderOgveetz {
+    font-size: var(--font-size-lgi);
+    line-height: 32px;
+  }
+}
